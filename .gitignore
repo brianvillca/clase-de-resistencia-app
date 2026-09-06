@@ -1,0 +1,12 @@
+# Logs
+logs
+
+# Dependencias
+node_modules/
+dist
+dist-ssr
+*.local
+
+# Salidas de compilación / Caché
+.vite/
+*.tsbuildinfo

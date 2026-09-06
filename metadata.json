@@ -1,0 +1,6 @@
+{
+  "name": "Gestión de Productos - C# Razor & Bootstrap",
+  "description": "Sistema de registro, consulta, modificación y eliminación de productos con Razor Pages, Bootstrap y persistencia en SQL Server con manejo robusto de errores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

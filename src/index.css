@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #0A0A0A;
+  --bg-surface: #121212;
+  --bg-surface-elevated: #161616;
+  --bg-input: #1A1A1A;
+  --border-color: #2A2A2A;
+  --border-subtle: #333333;
+  --text-main: #E0E0E0;
+  --text-muted: #8E8E93;
+  --accent-emerald: #10B981;
+  --accent-emerald-hover: #059669;
+}
+
+body {
+  background-color: #0A0A0A !important;
+  color: #E0E0E0 !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars for Elegant Dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
+}
+
+/* Bootstrap Dark Overrides to match theme */
+.form-control:focus, .form-select:focus {
+  border-color: #10B981 !important;
+  box-shadow: 0 0 0 0.25rem rgba(16, 185, 129, 0.2) !important;
+}
+
+.table {
+  --bs-table-bg: transparent !important;
+  --bs-table-color: #E0E0E0 !important;
+  --bs-table-border-color: #2A2A2A !important;
+}
+
+.table-hover > tbody > tr:hover > * {
+  --bs-table-bg-state: #181818 !important;
+  color: #FFFFFF !important;
+}
