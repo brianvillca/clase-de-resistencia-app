@@ -1,0 +1,1 @@
+# clase-de-resistencia-app
