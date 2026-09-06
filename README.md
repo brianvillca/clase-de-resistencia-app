@@ -1,6 +1,6 @@
 # Clase de Resistencia App
 
-Aplicación interactiva desarrollada con **React**, **Vite**, **TypeScript** y el SDK de **Google Gemini** (`@google/genai`).
+Aplicación interactiva desarrollada con **React**, **Vite** y **TypeScript**
 
 ---
 
